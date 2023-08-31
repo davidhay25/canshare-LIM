@@ -1,3 +1,3 @@
-# cs-lim
+# CanShare models and profiles
 
-Feel free to modify this index page with your own awesome content!
+Contains the Logical Models and profiles that define the structure of the CanShare repository
