@@ -5,7 +5,7 @@ Description:	 "The degree of differentiation of a sarcoma, e.g. the extent to wh
 
 * system 0..1 CodeableConcept "GradingSarcoma.system"
 * date 0..1 date "GradingSarcoma.date"
-* criteria 0..1 Group "GradingSarcoma.criteria"
+* criteria 0..1 BackboneElement "GradingSarcoma.criteria"
   * general 0..* BackboneElement "GradingSarcoma.criteria.general"
     * status 1..1 code "The status of the result value - i.e. registered, preliminary, final, amended"
     * code 0..1 CodeableConcept "The type of observation what was observed"
